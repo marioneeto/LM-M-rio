@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		Gere uma table que contenha informações climáticas, de uma determinada cidade,
+		para cada dia da semana. Os dados para preenchimento desta table estão na Figura
+		'exercicio-table-1.png' (esta ilustra a exibição esperada como resposta deste
+		exercício).
+
+		A table deve seguir os seguintes padrões de estilos:
+
+		1) Todo o texto deverá estar centralizado, com fonte "Times New Roman", Times,
+		serif, de tamanho de fonte de 12px;
+
+		2) Largura (width) em 20%;
+
+		3) Ter cor de pano de fundo igual a rgb(240,248,255);
+
+		4) Apenas os th's e td's deverão ter bordas "1px solid black", e padding de 5px;
+
+		5) A linha que contém os th's deverá estar na cor rgb(168, 218, 213). No entanto,		
+		se o mouse estiver posicionado sobre qualquer outra linha, esta também deverá estar
+		com o mesmo rgb, voltando a cor anterior, com a saída do mouse.
+
+		6) Os ícones para cada condição climática serão os do Weather Icons. A documentação de como
+		inserí-lo no HTML encontra-se em "https://erikflowers.github.io/weather-icons". No entanto,
+		o link para o seu CSS ja encontra-se refereciado deste arquivo. 
+		Para cada dia da semana, considere os seguintes ícones:
+
+			Domingo | wi-day-cloudy
+			Segunda | wi-day-sunny
+			Terça   | wi-day-rain
+			Quarta  | wi-day-lightning
+			Quinta  | wi-day-windy
+			Sexta   | wi-cloudy
+			Sábado  | wi-day-cloudy
+
+	-->
+	<head>
+		<title>Previsão do Tempo</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://erikflowers.github.io/weather-icons/css/weather-icons.css">
+		<link rel="stylesheet" href="style.css">	
+	</head>
+	
+	<body>
+		<table>
+			<tr> <!--1° linha-->
+				<th>Dia</th>
+				<th>Tempo</th>
+				<th>Mínima</th>
+				<th>Máxima</th>
+			</tr>
+			<tr> <!--2° linha-->
+				<td>Domingo</td>
+				<td><img src="weather-icons-master/svg/wi-day-cloudy.svg" alt="Nublado" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+			<tr> <!--3° linha-->
+				<td>Segunda</td>
+				<td><img src="weather-icons-master/svg/wi-day-sunny.svg" alt="Ensolarado" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+			<tr> <!--4° linha-->
+				<td>Terça</td>
+				<td><img src="weather-icons-master/svg/wi-day-rain.svg" alt="Chuva" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+			<tr> <!--5° linha-->
+				<td>Quarta</td>
+				<td><img src="weather-icons-master/svg/wi-day-lightning.svg" alt="Trovoes" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+			<tr> <!--6° linha-->
+				<td>Quinta</td>
+				<td><img src="weather-icons-master/svg/wi-day-windy.svg" alt="Ventos" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+			<tr> <!--7° linha-->
+				<td>Sexta</td>
+				<td><img src="weather-icons-master/svg/wi-cloudy.svg" alt="Fechado" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+			<tr> <!--8° linha-->
+				<td>Sábado</td>
+				<td><img src="weather-icons-master/svg/wi-day-cloudy.svg" alt="" class="tamanho"></td>
+				<td>27°</td>
+				<td>32°</td>
+			</tr>
+		</table>
+	</body>	
+</html>

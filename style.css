@@ -1,0 +1,28 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+table{
+    background-color: rgb(240, 248, 255);
+    text-align: center;
+    width: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 16px;
+}
+
+th, td{
+    padding: 5px;
+    border: 1px solid black;
+    border-image-outset: 0;
+    
+}
+th{
+    background-color: rgb(168, 218, 213);
+}
+tr:hover{
+    background-color: rgb(168, 218, 213);
+}
+.tamanho{
+    height: 25px;
+}
